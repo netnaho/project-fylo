@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro {
+  background-image: url("../img/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 20% 100%;
+  background-size: 600px;
+}
+
+@media (min-width: 765px) {
+  .intro {
+    background-image: url("../img/bg-curvy-desktop.svg");
+    background-position: 20% 200%;
+    background-size: 1500px;
+  }
+}
+
+.testimonial {
+  background-image: url("../img/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: 0% 4%;
+  margin-top: 14rem;
+  margin-bottom: 16rem;
+  padding-top: 3rem;
+}
+
+@media (min-width: 765px) {
+  .testimonial {
+    background-position: 0% 12%;
+  }
+}
