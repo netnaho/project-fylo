@@ -241,35 +241,36 @@
       </div>
     </section>
 
-    <footer class="bg-darkBlueF pt-96 pb-28 md:pt-44 relative">
+    <div
+      class="relative py-10 px-10 mx-auto mb-16 top-40 z-30 flex flex-col justify-center items-center max-w-[500px] bg-darkBlueI rounded-md md:max-w-[800px]"
+    >
+      <h1 class="font-bold text-2xl mb-2 text-center">
+        Get early access today
+      </h1>
+      <p class="text-center my-4">
+        It only takes a minute to sign up and our free starter tier is extremely
+        generous. if you have any questions, our support team would be happy to
+        help you.
+      </p>
       <div
-        class="absolute -top-[15%] mx-8 px-[50px] py-[40px] md:left-[15%] md:-top-[40%] inline-flex flex-col justify-center items-center max-w-[900px] bg-darkBlueI rounded-md"
+        class="flex flex-col justify-center items-center md:flex-row md:space-x-5"
       >
-        <h1 class="font-bold text-2xl mb-2 text-center">
-          Get early access today
-        </h1>
-        <p class="text-center my-4">
-          It only takes a minute to sign up and our free starter tier is
-          extremely generous. if you have any questions, our support team would
-          be happy to help you.
-        </p>
-        <div
-          class="flex flex-col justify-center items-center md:flex-row md:space-x-5"
+        <input
+          class="max-w-[400px] py-5 px-12 mb-6 rounded-full border-0 text-black placeholder:text-center outline md:mb-0"
+          type="email"
+          name=""
+          id=""
+          placeholder="email@example.com"
+        />
+        <button
+          class="bg-cyanAcc2 max-w-[300px] py-5 px-6 text-center rounded-full hover:bg-gradient-to-r from-cyanAcc1 to-cyanAcc2"
         >
-          <input
-            class="max-w-[400px] py-5 px-12 mb-6 text-center rounded-full border-0 text-black placeholder:text-center outline"
-            type="email"
-            name=""
-            id=""
-            placeholder="email@example.com"
-          />
-          <button
-            class="bg-cyanAcc2 max-w-[300px] py-5 px-6 text-center rounded-full hover:bg-gradient-to-r from-cyanAcc1 to-cyanAcc2"
-          >
-            Get Started For Free
-          </button>
-        </div>
+          Get Started For Free
+        </button>
       </div>
+    </div>
+
+    <footer class="bg-darkBlueF pt-96 pb-28 md:pt-44">
       <div class="container mx-auto">
         <div
           class="flex flex-col items-start md:justify-evenly gap-20 md:items-center md:space-x-20 md:flex-row"
